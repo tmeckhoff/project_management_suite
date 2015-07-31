@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../vendors/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../assets/style/style.css"/>
+</head>
+<body>
+
+<!-- Jumbotron Header -->
+<div class="jumbotron col-md-10 col-md-offset-1 text-center">
+    <h1>Project Management Suite</h1>
+</div>
+
+<div class="container">
+    <!-- Project Generation Form -->
+    <div class="row">
+        <div class="project-form col-lg-6 col-lg-offset-3">
+            <div class="input-group">
+              <span class="input-group-btn">
+                <button id="projectGenBtn" class="btn btn-default" type="button">Create!</button>
+              </span>
+                <input id="projectNameField" type="text" class="form-control" placeholder="Enter project name...">
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Container -->
+    <div class="project-container">
+        <!--<div class="project-wrapper panel panel-primary">-->
+            <!--<div class="panel-heading">-->
+                <!--<h1>Some Title</h1>-->
+            <!--</div>-->
+
+            <!--<div class="panel-body">-->
+                <!--<div class="row">-->
+                    <!--<button id="getStaffBtn" class="btn btn-primary" type="button">Get Staff!</button>-->
+                <!--</div>-->
+                <!--<div class="row">-->
+                    <!--<div class="well employee-container col-md-6 col-md-offset-1">-->
+
+                    <!--</div>-->
+                    <!--<div class="well project-info-container col-md-3 col-md-offset-1">-->
+                        <!--<div class="info-header text-center">-->
+                            <!--<h3>Project Info</h3>-->
+                        <!--</div>-->
+                        <!--<h4>Front End Requirements</h4>-->
+                        <!--<p>40 units</p>-->
+                        <!--<h4>Server Side Requirements</h4>-->
+                        <!--<p>40 units</p>-->
+                        <!--<h4>Client Side Requirements</h4>-->
+                        <!--<p>40 units</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+</div>
+
+
+<!-- EMPLOYEE REQUEST BUTTON -->
+<div id="employeeRequestBtn" class="btn-group">
+    <button type="button" class="btn btn-primary">FrontEnd</button>
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="caret"></span>
+        <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#">FrontEnd</a></li>
+        <li><a href="#">ClientSide</a></li>
+        <li><a href="#">ServerSide</a></li>
+    </ul>
+</div>
+
+<!-- BEGIN SCRIPTS -->
+<script src="../vendors/jquery/dist/jquery.min.js"></script>
+<script src="../vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../assets/scripts/app.min.js"></script>
+<!-- END SCRIPTS -->
+</body>
+</html>

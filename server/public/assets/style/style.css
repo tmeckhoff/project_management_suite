@@ -1,0 +1,23 @@
+.jumbotron {
+    padding: 15px;
+}
+
+.project-form {
+    margin-bottom: 30px;
+}
+
+#getStaffBtn, #employeeRequestBtn {
+    position: relative;
+    float: right;
+    margin: 25px;
+}
+
+.employee-card {
+    border: 1px solid black;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+
+#employeeRequestBtn {
+    display: none;
+}
